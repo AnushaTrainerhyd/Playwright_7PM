@@ -1,0 +1,17 @@
+[
+	{
+		"email":"Qicon@gmail.com",
+		"password":"Next@123",
+		"status":"valid"
+	},
+	{
+		"email":"abc@gmail.com",
+		"password":"Next@123",
+		"status":"invalid"	
+	},
+	{
+		"email":"xyz@gmail.com",
+		"password":"Next@123",
+		"status":"invalid"	
+	},
+]

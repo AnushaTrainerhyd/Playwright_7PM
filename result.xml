@@ -1,0 +1,39 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="52.955877">
+<testsuite name="report.spec.ts" timestamp="2026-05-06T14:25:21.353Z" hostname="chromium" tests="1" failures="1" skipped="0" time="50.284" errors="0">
+<testcase name="Enter Vehicle data" classname="report.spec.ts" time="50.284">
+<failure message="report.spec.ts:19:5 Enter Vehicle data" type="FAILURE">
+<![CDATA[  [chromium] › report.spec.ts:19:5 › Enter Vehicle data ────────────────────────────────────────────
+
+    Test timeout of 50000ms exceeded.
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('heading', { name: 'Sending e-mail success!' })
+    Expected: visible
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" with timeout 10000ms
+      - waiting for getByRole('heading', { name: 'Sending e-mail success!' })
+
+
+      109 |   await page.locator('#Comments').fill('Good Service');
+      110 |   await page.getByRole('button', { name: '« Send »' }).click();
+    > 111 |   await expect(page.getByRole('heading', { name: 'Sending e-mail success!' })).toBeVisible();
+          |                                                                                ^
+      112 |   await page.getByRole('button', { name: 'OK' }).click();
+      113 |   await page.waitForTimeout(2000);
+      114 |
+        at C:\Users\Anusha\Desktop\Playwright Projects\Playwright_7PM\tests\report.spec.ts:111:80
+
+    Error Context: ..\test-results\report-Enter-Vehicle-data-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\report-Enter-Vehicle-data-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+{
+  "name": "playwright_7pm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "allure": "^3.7.0",
+    "allure-playwright": "^3.7.2"
+  },
+  "dependencies": {
+    "csv-parse": "^6.2.1",
+    "xlsx": "^0.18.5"
+  }
+}

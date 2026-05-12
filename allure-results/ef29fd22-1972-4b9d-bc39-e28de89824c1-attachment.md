@@ -1,0 +1,101 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Tricentis Logo Vehicle Insurance Application This is a sample application, Version 1.0.1" [ref=e6] [cursor=pointer]:
+        - /url: index.php
+        - img "Tricentis Logo" [ref=e7]
+        - generic [ref=e8]:
+          - heading "Vehicle Insurance Application" [level=1] [ref=e9]
+          - text: This is a sample application, Version 1.0.1
+      - generic [ref=e11]:
+        - link " Visit Support!" [ref=e12] [cursor=pointer]:
+          - /url: https://support.tricentis.com
+          - generic [ref=e13]: 
+          - text: Visit Support!
+        - textbox "Search Support..." [ref=e14]
+        - button "" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: 
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - text: 
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - link "Automobile" [ref=e22] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e23]:
+            - link "Truck" [ref=e24] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e25]:
+            - link "Motorcycle" [ref=e26] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e27]:
+            - link "Camper" [ref=e28] [cursor=pointer]:
+              - /url: "#"
+      - link "Request Demo" [ref=e30] [cursor=pointer]:
+        - /url: http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+  - main [ref=e31]:
+    - generic [ref=e33]:
+      - link "Home" [ref=e34] [cursor=pointer]:
+        - /url: index.php
+      - text: Automobile Insurance
+  - generic [ref=e35]:
+    - generic [ref=e38]:
+      - navigation [ref=e39]:
+        - list:
+          - listitem [ref=e40]:
+            - link "Enter Vehicle Data 7" [ref=e41] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Vehicle Data
+              - generic [ref=e42]: "7"
+          - listitem [ref=e43]:
+            - link "Enter Insurant Data 7" [ref=e44] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Insurant Data
+              - generic [ref=e45]: "7"
+          - listitem [ref=e46]:
+            - link "Enter Product Data 6" [ref=e47] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Product Data
+              - generic [ref=e48]: "6"
+          - listitem [ref=e49]:
+            - link "Select Price Option 1" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - text: Select Price Option
+              - generic [ref=e51]: "1"
+          - listitem [ref=e52]:
+            - link "Send Quote 4" [active] [ref=e53]:
+              - /url: "#"
+              - text: Send Quote
+              - generic [ref=e54]: "4"
+      - generic [ref=e56]:
+        - text:     
+        - generic [ref=e57]:
+          - paragraph [ref=e64]: Please, select a price option to send the quote.
+          - text:     
+    - generic [ref=e67]:
+      - navigation [ref=e68]:
+        - link "About" [ref=e69] [cursor=pointer]:
+          - /url: http://www.tricentis.com/about
+        - link "Products" [ref=e70] [cursor=pointer]:
+          - /url: http://www.tricentis.com/tricentis-tosca-testsuite
+        - link "Events & Webinars" [ref=e71] [cursor=pointer]:
+          - /url: http://www.tricentis.com/events-webinars
+        - link "Resources" [ref=e72] [cursor=pointer]:
+          - /url: http://www.tricentis.com/resources
+        - link "Services" [ref=e73] [cursor=pointer]:
+          - /url: http://www.tricentis.com/services
+      - generic [ref=e74]:
+        - link "" [ref=e75] [cursor=pointer]:
+          - /url: https://www.facebook.com/TRICENTIS
+          - generic [ref=e76]: 
+        - link "" [ref=e77] [cursor=pointer]:
+          - /url: https://twitter.com/Tricentis
+          - generic [ref=e78]: 
+        - link "" [ref=e79] [cursor=pointer]:
+          - /url: https://plus.google.com/108151335013813449490/posts
+          - generic [ref=e80]: 
+      - generic [ref=e81]: Copyright 2021 by Tricentis GmbH. All rights reserved.
+```

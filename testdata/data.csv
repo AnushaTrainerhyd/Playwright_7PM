@@ -1,0 +1,4 @@
+email,password,status
+Qicon@gmail.com,Next@123,valid
+abc@gmail.com,abc123,invalid
+xyz@gmail.com,xyz123,invalid
