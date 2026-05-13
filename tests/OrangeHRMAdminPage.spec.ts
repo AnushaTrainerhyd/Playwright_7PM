@@ -6,7 +6,7 @@ import { AdminPage } from '../pages/adminpage';
 import { TestConfig } from '../test.config';
 
 
-test ("Orange Hrm login page", async({page})=>{
+test ("@sanity Orange Hrm login page", async({page})=>{
     const orange = new TestConfig();
     await page.goto(orange.applicationUrl);
 

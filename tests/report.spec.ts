@@ -16,7 +16,7 @@ test.beforeEach('Sample url andautomobile', async({page})=>{
 //   await page.waitForTimeout(5000);
 // });
 
-test('Enter Vehicle data', async({page})=>{
+test(' @sanity Enter Vehicle data', async({page})=>{
 await  page.goto('https://sampleapp.tricentis.com/101/index.php');
   await page.getByRole('link', { name: 'Automobile', exact: true }).click();
   await expect(page.getByText('Automobile Insurance', { exact: true })).toBeVisible();
